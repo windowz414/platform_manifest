@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="teos-dev"
+           fetch="https://github.com/teos-dev/"
+           revision="experimental" />
+
+
+  <!-- DEVICE TREE
+  #####################################################-->
+  <project name="recovery_device_vestel_teos" path="device/vestel/teos" remote="teos-dev" />
+
+</manifest>
