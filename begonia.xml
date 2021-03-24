@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ios7jbpro"
+           fetch="https://github.com/ios7jbpro/"
+           revision="dot11" />
+
+  <remote  name="windowzytch"
+           fetch="https://github.com/windowzytch/"
+           revision="stellar-S1" />
+
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="android_kernel_xiaomi_mt6785" path="kernel/xiaomi/mt6785" remote="ios7jbpro" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="device_redmi_begonia" path="device/redmi/begonia" remote="windowzytch" />
+  <project name="android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" remote="ios7jbpro" />
+
+  <!-- VENDOR
+  #####################################################-->
+  <project name="android_vendor_redmi_begonia" path="vendor/redmi/begonia" remote="ios7jbpro" />
+  <project name="vendor_redmi_begonia-firmware" path="vendor/redmi/begonia-firmware" remote="ios7jbpro" />
+  <project name="android_vendor_mediatek_opensource" path="vendor/mediatek/opensource" remote="ios7jbpro" />
+  <project name="android_vendor_mediatek_interfaces" path="vendor/mediatek/interfaces" remote="ios7jbpro" />
+  <project name="android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="ios7jbpro" />
+
+</manifest>
