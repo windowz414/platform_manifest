@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="windowzytch"
+           fetch="https://github.com/windowzytch/"
+           revision="cm-14.1" />
+
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_vestel_Teos" path="device/vestel/Teos" remote="windowzytch" />
+
+  <!-- VENDOR TREES
+  #####################################################-->
+  <project name="android_vendor_vestel_Teos" path="vendor/vestel/Teos" remote="windowzytch" />
+
+</manifest>
