@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="teos-dev"
+           fetch="https://github.com/teos-dev/"
+           revision="cm-14.1" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_vestel_teos" path="device/vestel/teos" remote="teos-dev" revision="aex/7.x" />
+
+  <!-- VENDOR TREES
+  #####################################################-->
+  <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
+
+  <!-- KERNEL TREES
+  #####################################################-->
+  <project name="android_kernel_vestel_msm8920" path="kernel/vestel/msm8920" remote="teos-dev" />
+
+</manifest>
