@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="teos-dev-romspecific"
+           fetch="https://github.com/teos-dev/"
+           revision="mkn-mr1" />
+
+  <remote  name="teos-dev-generic"
+           fetch="https://github.com/teos-dev/"
+           revision="cm-14.1" />
+
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="android_kernel_motorola_msm8920" path="kernel/motorola/msm8920" remote="teos-dev-generic" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_vestel_teos" path="device/vestel/teos" remote="teos-dev-romspecific" />
+  
+  <!-- VENDOR
+  #####################################################-->
+  <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev-generic" />
+
+</manifest>
