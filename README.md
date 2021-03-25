@@ -1,0 +1,2 @@
+# WARNING FOR WEEB PROJEKT
+DON'T EVER TRY building Weeb Projekt with trees provided here! The ROM is STILL IN A STAGING PROCESS and trying to build it yourself may take you into REALLY SERIOUS PROBLEMS! You're all on your own and you should NEVER ask for help until it's completely ready!
