@@ -7,7 +7,9 @@ Thanks for giving this repo a visit and caring about it!
 
 # How to add these manifests into repo sync?
 It's pretty easy, just clone the appropriate branch in ROM source's main folder and you're good to go!
-```git clone https://github.com/windowzytch/platform_manifest -b <branch> .repo/local_manifests```
+```
+git clone https://github.com/windowzytch/platform_manifest -b <branch> .repo/local_manifests
+```
 
 # Credits
 Base manifests: <a href="https://github.com/Suicide-Squirrel/local_manifests">Suicide-Squirrel/local_manifests</a>
