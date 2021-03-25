@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="windowzytch"
+           fetch="https://github.com/windowzytch/"
+           revision="amyrom/rosie" />
+
+  <remote  name="stellar-devices"
+           fetch="https://github.com/Stellar-Devices/"
+           revision="stellar-S1" />
+
+  <remote name="LOS"
+          fetch="https://github.com/LineageOS/"
+          revision="lineage-18.1" />
+
+  <remote name="Muppets"
+          fetch="https://github.com/TheMuppets/"
+          revision="lineage-18.1" />
+
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="stellar-devices" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="windowzytch" />
+  <project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="stellar-devices" />
+
+  <!-- VENDOR
+  #####################################################-->
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="Muppets" />
+
+  <!-- DEPENDENCIES
+  #####################################################-->
+  <project name="android_external_bson" path="external/bson" remote="LOS" />
+  <project name="android_system_qcom" path="system/qcom" remote="LOS" />
+
+</manifest>
