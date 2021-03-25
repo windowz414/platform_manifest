@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="teos-dev"
+           fetch="https://github.com/teos-dev/"
+           revision="lineage-18.1" />
+
+  <remote  name="labs"
+           fetch="https://github.com/wz414-labs/"
+           revision="lineage-18.1" />
+
+  <!-- KERNEL
+  #####################################################-->
+  <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="labs" />
+
+  <!-- DEVICE TREES
+  #####################################################-->
+  <project name="android_device_vestel_teos-lin18" path="device/vestel/teos" remote="teos-dev" />
+  
+  <!-- VENDOR
+  #####################################################-->
+  <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" revision="cm-14.1" />
+
+</manifest>
