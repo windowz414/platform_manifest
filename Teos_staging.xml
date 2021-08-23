@@ -14,4 +14,9 @@
   #####################################################-->
   <project name="android_vendor_vestel_Teos" path="vendor/vestel/Teos" remote="windowzytch" />
 
+  <!-- PATCHES
+  #####################################################-->
+  <remove-project name="LineageOS/android_external_icu" />
+  <project path="external/icu" name="android_external_icu" remote="windowzytch" groups="pdk" />
+
 </manifest>
