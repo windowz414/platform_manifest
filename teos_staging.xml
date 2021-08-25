@@ -5,14 +5,18 @@
            fetch="https://github.com/windowzytch/"
            revision="cm-14.1" />
 
+  <remote  name="LOS"
+           fetch="https://github.com/LineageOS/"
+           revision="cm-14.1" />
 
   <!-- DEVICE TREES
   #####################################################-->
-  <project name="android_device_vestel_Teos" path="device/vestel/Teos" remote="windowzytch" />
+  <project name="android_device_vestel_teos" path="device/vestel/teos" remote="windowzytch" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="LOS" />
 
   <!-- VENDOR TREES
   #####################################################-->
-  <project name="android_vendor_vestel_Teos" path="vendor/vestel/Teos" remote="windowzytch" />
+  <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="windowzytch" />
 
   <!-- PATCHES
   #####################################################-->
