@@ -9,6 +9,10 @@
            fetch="https://github.com/LineageOS/"
            revision="cm-14.1" />
 
+  <remote  name="Wzedlare"
+           fetch="https://github.com/Wzedlare/"
+           revision="cm-14.1" />
+
   <!-- DEVICE TREES
   #####################################################-->
   <project name="android_device_vestel_teos" path="device/vestel/teos" remote="teos-dev" />
@@ -17,6 +21,10 @@
   <!-- VENDOR TREES
   #####################################################-->
   <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
+
+  <!-- KERNEL TREES
+  #####################################################-->
+  <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="Wzedlare" />
 
   <!-- PATCHES
   #####################################################-->
