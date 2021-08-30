@@ -10,4 +10,8 @@
   #####################################################-->
   <project name="recovery_device_vestel_teos" path="device/vestel/teos" remote="teos-dev" />
 
+  <!-- CRUCIAL REPOS
+  #####################################################-->
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+
 </manifest>
