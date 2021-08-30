@@ -13,5 +13,6 @@
   <!-- CRUCIAL REPOS
   #####################################################-->
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/junit" name="platform/external/junit" groups="pdk" />
 
 </manifest>
