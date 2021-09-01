@@ -20,7 +20,7 @@
 
   <!-- KERNEL TREES
   #####################################################-->
-  <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="teos-dev" />
+  <project name="android_kernel_motorola_msm8920" path="kernel/motorola/msm8920" remote="teos-dev" />
 
   <!-- PATCHES
   #####################################################-->
