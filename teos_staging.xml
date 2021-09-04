@@ -20,7 +20,7 @@
 
   <!-- KERNEL TREES
   #####################################################-->
-  <project name="android_kernel_motorola_msm8920" path="kernel/motorola/msm8920" remote="teos-dev" />
+  <project name="android_kernel_vestel_msm8916" path="kernel/vestel/msm8916" remote="teos-dev" />
 
   <!-- PATCHES
   #####################################################-->
