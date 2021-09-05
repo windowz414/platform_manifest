@@ -20,7 +20,7 @@
 
   <!-- KERNEL TREES
   #####################################################-->
-  <project name="android_kernel_vestel_msm8916" path="kernel/vestel/msm8916" remote="teos-dev" />
+  <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="LOS" />
 
   <!-- PATCHES
   #####################################################-->
