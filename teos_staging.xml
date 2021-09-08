@@ -3,11 +3,11 @@
 
   <remote  name="teos-dev"
            fetch="https://github.com/teos-dev/"
-           revision="cm-14.1" />
+           revision="lineage-15.1" />
 
   <remote  name="LOS"
            fetch="https://github.com/LineageOS/"
-           revision="cm-14.1" />
+           revision="lineage-15.1" />
 
   <!-- DEVICE TREES
   #####################################################-->
@@ -17,10 +17,4 @@
   <!-- VENDOR TREES
   #####################################################-->
   <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
-
-  <!-- PATCHES
-  #####################################################-->
-  <remove-project name="LineageOS/android_external_icu" />
-  <project path="external/icu" name="android_external_icu" remote="teos-dev" groups="pdk" />
-
 </manifest>
