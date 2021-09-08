@@ -17,4 +17,9 @@
   <!-- VENDOR TREES
   #####################################################-->
   <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
+
+  <!-- KERNEL TREES
+  #####################################################-->
+  <project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="LOS" />
+
 </manifest>
