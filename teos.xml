@@ -18,10 +18,6 @@
   #####################################################-->
   <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
 
-  <!-- KERNEL TREES
-  #####################################################-->
-  <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="LOS" />
-
   <!-- PATCHES
   #####################################################-->
   <remove-project name="LineageOS/android_external_icu" />
