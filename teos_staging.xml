@@ -22,4 +22,9 @@
   #####################################################-->
   <project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="LOS" />
 
+  <!-- PATCHES
+  #####################################################-->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="teos-dev" />
+
 </manifest>
