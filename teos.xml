@@ -5,22 +5,16 @@
            fetch="https://github.com/teos-dev/"
            revision="cm-14.1" />
 
-  <remote  name="LOS"
-           fetch="https://github.com/LineageOS/"
-           revision="cm-14.1" />
-
   <!-- DEVICE TREES
   #####################################################-->
   <project name="android_device_vestel_teos" path="device/vestel/teos" remote="teos-dev" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="LOS" />
 
   <!-- VENDOR TREES
   #####################################################-->
   <project name="android_vendor_vestel_teos" path="vendor/vestel/teos" remote="teos-dev" />
 
-  <!-- PATCHES
+  <!-- KERNEL TREES
   #####################################################-->
-  <remove-project name="LineageOS/android_external_icu" />
-  <project path="external/icu" name="android_external_icu" remote="teos-dev" groups="pdk" />
+  <project name="android_kernel_vestel_msm8920" path="kernel/vestel/msm8920" remote="teos-dev" />
 
 </manifest>
