@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="lambada"
-		 fetch="https://github.com/lambada-vayu-lab/"
+		 fetch="https://github.com/lambada-vayu-lab"
 		 revision="arrow-12.0" />
 
         <remote  name="arrow-devices"
-                 fetch="https://github.com/ArrowOS-Devices/"
+                 fetch="https://github.com/ArrowOS-Devices"
                  revision="arrow-12.0" />
 
         <remote  name="jebaitedneko"
-                 fetch="https://github.com/jebaitedneko/"
+                 fetch="https://github.com/jebaitedneko"
                  revision="r2" />
 
 <!-- Device -->
-	<project name="android_device_xiaomi_vayu-posp" path="device/xiaomi/vayu" remote="lambada" />
+	<project name="device_xiaomi_vayu-posp" path="device/xiaomi/vayu" remote="lambada" />
 
 <!-- Kernel -->
 	<project name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="jebaitedneko" />
