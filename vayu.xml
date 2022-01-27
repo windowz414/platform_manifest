@@ -4,7 +4,7 @@
 		 fetch="https://github.com/lambada-vayu-lab/"
 		 revision="arrow-12.0" />
 
-        <remote  name="arrow"
+        <remote  name="arrow-devices"
                  fetch="https://github.com/ArrowOS-Devices/"
                  revision="arrow-12.0" />
 
@@ -19,14 +19,14 @@
 	<project name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="jebaitedneko" />
 
 <!-- Vendor -->
-	<project name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="arrow" />
+	<project name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="arrow-devices" />
 
 <!-- Hardware -->
-	<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="arrow" />
+	<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="arrow-devices" />
 
 <!-- Extras -->
-	<project name="android_device_xiaomi_extras" path="device/xiaomi/extras" remote="arrow" />
+	<project name="android_device_xiaomi_extras" path="device/xiaomi/extras" remote="arrow-devices" />
 
 <!-- GCamGO -->
-	<project name="android_packages_apps_GCamGOPrebuilt" path="packages/apps/GCamGOPrebuilt" remote="arrow" />
+	<project name="android_packages_apps_GCamGOPrebuilt" path="packages/apps/GCamGOPrebuilt" remote="arrow-devices" />
 </manifest>
