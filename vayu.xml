@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="lambada"
+		 fetch="https://github.com/lambada-vayu-lab/"
+		 revision="arrow-12.0" />
+
+        <remote  name="arrow"
+                 fetch="https://github.com/ArrowOS-Devices/"
+                 revision="arrow-12.0" />
+
+        <remote  name="jebaitedneko"
+                 fetch="https://github.com/jebaitedneko/"
+                 revision="r2" />
+
+<!-- Device -->
+	<project name="android_device_xiaomi_vayu-posp" path="device/xiaomi/vayu" remote="lambada" />
+
+<!-- Kernel -->
+	<project name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="jebaitedneko" />
+
+<!-- Vendor -->
+	<project name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="arrow" />
+
+<!-- Hardware -->
+	<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="arrow" />
+
+<!-- Extras -->
+	<project name="android_device_xiaomi_extras" path="device/xiaomi/extras" remote="arrow" />
+
+<!-- GCamGO -->
+	<project name="android_packages_apps_GCamGOPrebuilt" path="packages/apps/GCamGOPrebuilt" remote="arrow" />
+</manifest>
