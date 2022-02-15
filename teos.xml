@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="windowz414"
-           fetch="https://github.com/windowz414/"
+           fetch="https://git.polycule.co/windowz414/"
            revision="cm-14.1" />
 
   <!-- DEVICE TREES
