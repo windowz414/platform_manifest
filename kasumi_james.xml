@@ -1,0 +1,27 @@
+<manifest>
+
+    <!-- Define remotes first, shall we? -->
+
+    <remote  name="phoebe-cutie"
+             fetch="https://github.com/phoebethetransgirl"
+             branch="kasumi-1.1" />
+
+    <remote  name="ongaku"
+             fetch="https://github.com/musical-chairs"
+             branch="lineage-18.1" />
+    
+    <!-- Then comes trees- Don't get the wrong idea! "Tree" here is
+         device-specific code. Let's start with device tree. -->
+
+    <project name="android_device_motorola_james" path="device/motorola/james" remote="phoebe-cutie" />
+
+    <!-- Linux kernel, originally made by Linus Torvalds, is one of
+         core components Android depends on. -->
+
+    <project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="ongaku" clone-depth="1" />
+
+    <!-- ABSOLUTELY PROPRIETARY! -->
+
+    <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="ongaku" clone-depth="1" />
+
+</manifest>
