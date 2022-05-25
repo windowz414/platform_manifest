@@ -3,7 +3,7 @@
 
   <remote  name="windowz414"
            fetch="https://git.polycule.co/windowz414/"
-           revision="cm-14.1" />
+           revision="halium-7.1" />
 
   <!-- DEVICE TREES
   #####################################################-->
@@ -16,5 +16,9 @@
   <!-- KERNEL TREES
   #####################################################-->
   <project name="android_kernel_vestel_msm8920" path="kernel/vestel/msm8920" remote="windowz414" />
+
+  <!-- ADDITIONAL
+  #####################################################-->
+  <project path="system/bt" name="android_system_bt" remote="los" revision="cm-14.1" />
 
 </manifest>
